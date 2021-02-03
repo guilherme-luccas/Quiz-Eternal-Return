@@ -1,32 +1,64 @@
 {
-  "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
-  "title": "Quiz CSS da Alura",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "bg": "https://images4.alphacoders.com/112/1122617.jpg",
+  "logo": "https://1290779820.rsc.cdn77.org/cover/eternal-return-black-survival-637442321542890737_logo.png",
+
+  "title": "Quiz Eternal Return: Black Survivor",
+  "description": "Um quiz para testar seus conhecimentos sobre o jogo",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
-      "alternatives": [".elemento", "*elemento", "#elemento", "%elemento"]
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1049590/capsule_616x353.jpg?t=1604545849",
+      "title": "Qual habilidade é a moto do Magnus?",
+      "description": "Pergunta fácil!",
+      "answer": 3,
+      "alternatives": ["Q", "W", "E", "R"]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
-      "answer": 0,
+      "image": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/34875433/f7d5d21a59f72237f08148584bb8b7d85c749f4f.jpg",
+      "title": "Qual é a passiva do Xiukai",
+      "description": "Pergunta fácil!",
+      "answer": 1,
       "alternatives": [
-        "background: linear-gradient(#e66465, #9198e5);",
-        "background: gradient(#e66465, #9198e5);"
+        "Ganhar velocidade quando come algo",
+        "Ganhar vida máxima quando cozinhar",
+        "Quando sentado ele recupera mais vida"
       ]
+    },
+
+    {
+      "image": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/34875433/5b6740ef105d9114b2a9423fefea9cc2ba830ad5.png",
+      "title": "Quantas raridades de item existem?",
+      "description": "Complicou?",
+      "answer": 0,
+      "alternatives": ["5", "4", "7", "2"]
+    },
+    {
+      "image": "https://static.invenglobal.com/upload/image/2019/10/15/o1571179602438689.jpeg",
+      "title": "Quantas áreas existem no mapa?",
+      "description": "Será que tem pegadinha?",
+      "answer": 4,
+      "alternatives": ["10", "12", "8", "15", "16"]
+    },
+    {
+      "image": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/34875433/36a7058df587c304c12d97aa7a57d98fb38cae97.jpg",
+      "title": "Qual animal você se transforma quando a Emma usa o E",
+      "description": "",
+      "answer": 1,
+      "alternatives": ["Gato", "Coelho", "Rato", "Cachorro"]
+    },
+    {
+      "image": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/34875433/c8f9adedba055b7d81058373871823c5c68c6388.png",
+      "title": "Com quantos minutos de jogo a Wickeline aparece?",
+      "description": "",
+      "answer": 3,
+      "alternatives": ["15", "12", "9", "10"]
     }
   ],
-  "external": [""],
+  "external": ["https://store.steampowered.com/news/app/1049590"],
   "theme": {
     "colors": {
-      "primary": "#0d47a1",
-      "secondary": "#29b6f6",
-      "mainBg": "#171B35",
+      "primary": "#222222",
+      "secondary": "#e89c3f",
+      "mainBg": "#a44f09",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
       "success": "#4CAF50"
